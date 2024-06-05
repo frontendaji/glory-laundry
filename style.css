@@ -74,7 +74,11 @@ nav{
 @media screen and (max-width: 576px) {
 
     .container{
-        padding: 1.5rem;
+        padding: 1rem;
+    }
+
+    .logo h1{
+        font-size: 1em;
     }
     .nav-dekstop{
         display: none;
