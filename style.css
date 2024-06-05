@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+:root {
+    --primary-color: #DEDCFF;
+    --secondary-color: #2F27CE;
+    --background-color: #FBFBFE;
+    --text-color: #050315;
+}
+
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('assets/fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 85rem;
+    max-width: 85rem;
+    border: 1px solid black;
+}
+
+/* Header */
+
+.logo h1{
+    font-size: 1.2em;
+    color: #040316;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.nav-dekstop ul{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+.nav-dekstop ul li a{
+    text-decoration: none;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.menu span{
+    display: inline-block;
+    width: 2rem;
+    height: 1px;
+    background-color: var(--text-color);
+}
+
+
+@media screen and (max-width: 576px) {
+
+    .container{
+        padding: 1.5rem;
+    }
+    .nav-dekstop{
+        display: none;
+    }
+}
