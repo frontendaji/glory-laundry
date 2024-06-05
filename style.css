@@ -65,7 +65,7 @@ nav{
 
 .menu span{
     display: inline-block;
-    width: 1.6rem;
+    width: 1.4rem;
     height: 1px;
     background-color: var(--text-color);
 }
