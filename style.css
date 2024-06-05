@@ -65,7 +65,7 @@ nav{
 
 .menu span{
     display: inline-block;
-    width: 1.4rem;
+    width: 20px;
     height: 1px;
     background-color: var(--text-color);
 }
@@ -73,9 +73,6 @@ nav{
 
 @media screen and (max-width: 576px) {
 
-    nav{
-        padding: 1.5rem;
-    }
 
     .logo h1{
         font-size: 1em;
